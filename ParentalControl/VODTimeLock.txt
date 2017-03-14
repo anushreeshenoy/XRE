@@ -1,0 +1,8 @@
+Feature: VOD Time lock validation
+
+Scenario: VOD Time lock Validation
+
+Given I have a time lock set for 2pm to 3 pm 
+And I initialize onDeman Test
+And I playback a VOD from onDemand 
+Then I verify PIN overlay is displayed to the user. 
