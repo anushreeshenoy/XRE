@@ -1,0 +1,8 @@
+Feature: Channel Time lock validation
+
+Scenario: Channel Time lock Validation
+
+Given I have a time lock set for 2pm to 3 pm 
+And I initialize Guide Test
+And I tune to a channel 
+Then I verify PIN overlay is displayed to the user. 
