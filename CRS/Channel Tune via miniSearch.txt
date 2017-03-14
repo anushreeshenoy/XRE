@@ -1,0 +1,9 @@
+Feature: Channel Tune validation via miniSearch
+ 
+Scenario: Channel Tune Validation via miniSearch
+
+@clr @sanity @smoke @CRS @ParentalControl
+
+Given I initialize a grid guide test
+And i tune to a random channel via minisearch
+And I verify the tune is successful
